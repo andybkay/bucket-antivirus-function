@@ -1,9 +1,9 @@
 version: 0.0
 Resources:
-  - bucket-antivirus-function-staging:
+  - bucket-antivirus-function:
       Type: AWS::Lambda::Function
       Properties:
-        Name: "bucket-antivirus-function-staging"
+        Name: "bucket-antivirus-function"
         Alias: "default"
         CurrentVersion: "1"
         TargetVersion: "2"
