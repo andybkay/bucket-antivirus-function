@@ -7,8 +7,8 @@ phases:
 artifacts:
   type:
     - s3
-  name:
-    - rbods-clamav/build
+  name: 
+    rbods-clamav/build
   files:
     - lambda.zip
   #     - set -e
