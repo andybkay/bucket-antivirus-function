@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - bash build_lambda.sh
-      - aws s3 sync $lambda_output_file s3://rbods-clamav/build/
+#      - aws s3 sync $lambda_output_file s3://rbods-clamav/build/
   artifacts:
     type:
       - s3
