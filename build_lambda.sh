@@ -15,7 +15,7 @@
 # limitations under the License.
 
 echo $HOME
-lambda_output_file=build/lambda.zip
+lambda_output_file=lambda.zip
 
 set -e
 
