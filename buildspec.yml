@@ -4,13 +4,13 @@ phases:
     commands:
       - bash build_lambda.sh
 #      - aws s3 sync $lambda_output_file s3://rbods-clamav/build/
-  artifacts:
-    type:
-      - s3
-    name:
-      - rbods-clamav/build
-    files:
-      - lambda.zip
+artifacts:
+  type:
+    - s3
+  name:
+    - rbods-clamav/build
+  files:
+    - lambda.zip
   #     - set -e
   #
   #     - yum update -y
