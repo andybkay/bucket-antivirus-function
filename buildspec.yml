@@ -11,6 +11,7 @@ artifacts:
     rbods-clamav/build
   files:
     - lambda.zip
+    - appspec.yml
   #     - set -e
   #
   #     - yum update -y
